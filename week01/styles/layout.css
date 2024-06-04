@@ -1,7 +1,7 @@
 body {
     display: grid;
     height: 100vh;
-    grid-template: 1fr 1fr 3fr 1fr / auto auto auto;
+    grid-template: 1fr .5fr 3fr 1fr / auto auto auto;
   }
   
   header {
@@ -12,7 +12,7 @@ body {
   }
 
   .modern a {
-	flex: 1 1 100%;
+	flex: .5 .5 50%;
   }
 
   .navigation {
@@ -42,6 +42,7 @@ body {
     background: rgb(24, 30, 32); 
     grid-column: 1 / 4;
     width: 100%;
+    height: 100%;
   }
 
   main {

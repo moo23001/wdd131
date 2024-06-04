@@ -1,7 +1,7 @@
 body {
     display: grid;
     height: 100vh;
-    grid-template: auto auto auto / auto auto auto;
+    grid-template: 1fr 1fr 3fr 1fr / auto auto auto;
   }
   
   header {
@@ -30,7 +30,6 @@ body {
 	padding: 0.5rem;
 	text-decoration: none;
 	text-align: center;
- 	border: 1px dotted cyan; 
   }
   .navigation a:hover {
 	font-weight: 700;
@@ -49,6 +48,7 @@ body {
     background: rgb(151, 200, 240);
     grid-column: 1 / 3;
     padding: 1rem;
+    min-height: auto;
   }
   
   .right-sidebar {

@@ -93,6 +93,7 @@ nav a:hover {
         justify-content: center;
     }
     footer {
+        padding: 10%;
         grid-row: 3 / 4;
     }
 }

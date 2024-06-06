@@ -72,6 +72,11 @@ nav a:hover {
 	color: yellow;
 }
 
+footer{
+    background-color:#bbb;
+    color:black;
+}
+
 /* Larger Views ******************************/
 @media (min-width: 640px) {
     body {
@@ -93,8 +98,9 @@ nav a:hover {
         justify-content: center;
     }
     footer {
-        padding: 10%;
+        padding-left: 5%;
         grid-row: 3 / 4;
+        grid-column: 1 / 4;
     }
 }
 

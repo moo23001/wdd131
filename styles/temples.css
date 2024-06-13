@@ -7,11 +7,12 @@
 
 
 header {
-	background-color: #bbb;
+	background-color: #124076;
     align-items: center;
 	justify-content: center;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #EEEEEE;
 }
 .mainHeader {
     display: block;
@@ -30,6 +31,7 @@ header {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    color: #EEEEEE;
 }
 
 #menu::before {
@@ -50,14 +52,14 @@ header {
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
-	color: black;
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
+    color: #EEEEEE;
 }
 .navigation a:hover, navigation a:active {
-	color: white;
-	background-color: black;
+	color: #124076;
+	background-color: #FFC374;
 }
 .show li {
 	display: block;
@@ -79,7 +81,8 @@ header {
 footer {
     display: block;
     margin: 0 auto;
-    background-color: #bbb;
+    background-color: #124076;
+    color: #EEEEEE;
     padding: 10px;
     text-align: center;
     font-weight:500;

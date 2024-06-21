@@ -7,6 +7,7 @@
     <meta name="description" content="WDD 131 Dynamic Web Fundamentals place assignment to demonstrate use of image optimization, multiple media queries, and psudo elements.">
     <meta name="author" content="Pedro Moo">
     <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -25,15 +26,62 @@
                 <source media="(min-width: 500px)" srcset="images/monterrey-hero-1000x500.webp">
                 <img src="images/monterrey-hero-500x250.webp" alt="Monterrey's fundidora park view of the mountains" width="1000" height="500">
             </picture>
+            <section class="data">
+                <h2>Data</h2>
+                    <table class="datatable">
+                        <tr>
+                            <td style="width: 50%;">Area: </td>
+                            <td>324.8 km<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <td>Population: </td>
+                            <td>1,142,194</td>
+                        </tr>
+                        <tr>
+                            <td>Languages: </td>
+                            <td>Spanish</td>
+                        </tr>
+                        <tr>
+                            <td>Currency: </td>
+                            <td>Mexican Peso (MXN)</td>
+                        </tr>
+                        <tr>
+                            <td>Time Zone: </td>
+                            <td>UTC -6</td>
+                        </tr>
+                        <tr>
+                            <td>Calling Code: </td>
+                            <td>+52</td>
+                        </tr>
+                        <tr>
+                            <td>Internet TLD: </td>
+                            <td>.mx</td>
+                        </tr>
+                    </table>
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                    <table class="weathertable">
+                        <tr>
+                            <td style="width: 50%;">Temperature: </td>
+                            <td>24 &#8451;</td>
+                        </tr>
+                        <tr>
+                            <td>Conditions: </td>
+                            <td>Rainy</td>
+                        </tr>
+                        <tr>
+                            <td>Wind: </td>
+                            <td>11 km/h</td>
+                        </tr>
+                        <tr>
+                            <td>Wind Chill: </td>
+                            <td id="windchill"></td>
+                        </tr>
+                    </table>
+            </section>
         </div>
-        <section class="data">
-            <h2>Data</h2>
 
-        </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <img id="weatherIcon" src="images/sun-clouds.svg" alt="sun with clouds weather icon" width="50" height="50">
-        </section>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> Pedro Moo - Monterrey, Mexico</p>

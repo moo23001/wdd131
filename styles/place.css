@@ -1,8 +1,12 @@
+:root {
+    --mexican-green: #006341;
+    --mexican-red: #C8102E;
+}
 * {
     font-family: "DM Sans";
 }
 header {
-    background-color: #006341;
+    background-color: var(--mexican-green);
     color: white;
     text-align: center;
     padding: 20px;
@@ -18,15 +22,30 @@ section h2 {
     text-align: center;
 }
 
-#weatherIcon {
-    display: block;
+.datatable, .weathertable {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    
 }
 
+tr:hover {
+    background-color: #C8102E;
+    color: white;
+}
+td:nth-child(odd){
+    text-align: right;
+}
+
+
 footer{
-    background-color:#C8102E;
+    background-color:var(--mexican-red);
     color:white;
     text-align: center;
     padding: 20px;
+}
+
+h2::after {
+    content: url(//images/sun-clouds.svg);
+
 }

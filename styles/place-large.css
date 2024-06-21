@@ -1,0 +1,44 @@
+@media only screen and (min-width: 40em) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr, 1.5fr, 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr;
+        
+    }
+
+    .hero picture {
+        grid-column: 1 / 4;
+        grid-row: 1 / 4;
+    }
+
+    section {
+        background-color: white;
+        opacity: 0.7;
+        color: black;
+    }
+
+    .data {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+
+        padding: 30px;
+    }
+
+    .weather {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        padding: 30px;
+    }
+
+    section h2{
+        background-color: var(--mexican-green);
+        padding: 10px;
+        color: white;
+    }
+
+    h2::after {
+        content: url(//images/sun-clouds.svg);
+    
+    }
+    
+}

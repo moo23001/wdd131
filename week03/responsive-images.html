@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Responsive Images</title>
+    <meta name="description" content="WDD 131 Dynamic Web Fundamentals responsive images exercise with three images of different sizes using srcset">
+    <meta name="author" content="Pedro Moo">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/houston-temple02-1250x625.webp">
+                <source media="(min-width: 500px)" srcset="images/houston-temple02-1000x500.webp">
+                <img src="images/houston-temple02-500x250.webp" alt="Front view of the Houston, Texas temple" width="500" height="250">
+            </picture>
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -33,6 +33,10 @@ tr:hover {
     background-color: #C8102E;
     color: white;
 }
+
+td {
+    width: 50%;
+}
 td:nth-child(odd){
     text-align: right;
 }

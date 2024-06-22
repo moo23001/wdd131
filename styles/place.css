@@ -48,8 +48,11 @@ footer{
     text-align: center;
     padding: 20px;
 }
-
-h2.weather::after {
-    content: url(//images/sun-clouds.svg);
-
+.weather img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
+

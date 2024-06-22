@@ -24,7 +24,9 @@
             <picture>
                 <source media="(min-width: 1000px)" srcset="images/monterrey-hero-1500x750.webp">
                 <source media="(min-width: 500px)" srcset="images/monterrey-hero-1000x500.webp">
-                <img src="images/monterrey-hero-500x250.webp" alt="Monterrey's fundidora park view of the mountains" width="1000" height="500">
+                <source media="(min-width: 300px)" srcset="images/monterrey-hero-500x250.webp">
+
+                <img src="images/monterrey-hero-500x250.webp" alt="Monterrey's fundidora park view of the mountains" width="500" height="250">
             </picture>
             <section class="data">
                 <h2>Data</h2>
@@ -60,7 +62,8 @@
                     </table>
             </section>
             <section class="weather">
-                <h2>Weather</h2>
+                <h2 class="weatherh2">Weather</h2>
+                    <img src="images/sun-clouds.svg" alt="Sun and Clouds icon" width="50" height="50">
                     <table class="weathertable">
                         <tr>
                             <td>Temperature: </td>

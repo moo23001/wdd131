@@ -22,11 +22,18 @@ section h2 {
     text-align: center;
 }
 
+.weather img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .datatable, .weathertable {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    
 }
 
 tr:hover {
@@ -45,14 +52,10 @@ td:nth-child(odd){
 footer{
     background-color:var(--mexican-red);
     color:white;
+    text-shadow: 3px 2px black;
+    font-weight: bold;
     text-align: center;
     padding: 20px;
 }
-.weather img {
-    display: block;
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 

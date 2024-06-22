@@ -46,6 +46,7 @@ td {
 }
 td:nth-child(odd){
     text-align: right;
+    font-weight: bold;
 }
 
 

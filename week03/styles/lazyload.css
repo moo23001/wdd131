@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+main {
+    margin: 0 auto;
+    width: 400px;
+}
+img {
+    display: block;
+    background: #000;
+    animation: both 10s;
+    
+}

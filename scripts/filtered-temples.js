@@ -90,9 +90,14 @@ const temples = [
 	  },
   ];
 
-const templeCards = temples.map((temple) => {
+templeCards(temples);
+
+function templeCards(filteredTempleArray) {
+	document.querySelector(".container").innerHTML = "";
+	filteredTempleArray.map((temple) => {
 	//Create the temple card elements
 	const tCard = document.createElement("div");
+	tCard.classList = 'card';
 	const templeCardName = document.createElement('h3');
 	const templeCardLocation = document.createElement('p');
 	const templeCardDedication = document.createElement('p');
@@ -112,14 +117,15 @@ const templeCards = temples.map((temple) => {
 	templeCardArea.innerHTML = `Temple area: ${temple.area.toLocaleString('en-US')} sq ft`;
 	templeCardImg.innerHTML = temple.imageUrl;
 	
-	//Append child elements to temple card
+
 /* 	const templeCardName = `<h3>${temple.templeName}</h3>`;
 	const templeCardLocation = `<p>Location: ${temple.location}</p>`;
 	const templeDedication = `<p>Dedicated on: ${temple.dedicated}</p>`;
 	const templeArea = `<p>Size: ${temple.area} sq ft</p>`;
 	const templeImg = `<img src="${temple.imageUrl}" alt = "${temple.templeName} temple" loading = "lazy">`
 	const tCard = document.createElement("div"); */
-	
+
+	//Append child elements to temple card
 	tCard.appendChild(templeCardName);
 	tCard.appendChild(templeCardLocation);
 	tCard.appendChild(templeCardDedication);
@@ -129,7 +135,38 @@ const templeCards = temples.map((temple) => {
 	const templeCardsFinal = document.querySelector('.container');
 	templeCardsFinal.appendChild(tCard);
 
-	return tCard;
+	})
+}
+function splitDate(date) {
+	const newDate = date.split(',');
+	return newDate;
+}
+
+const allTemples = document.querySelector('#allTemples')
+const newTemples = document.querySelector('#newTemples');
+const oldTemples = document.querySelector('#oldTemples');
+const largeTemples = document.querySelector('#largeTemples');
+const smallTemples = document.querySelector('#smallTemples');
+
+
+allTemples.addEventListener("click", () => {
+	templeCards(temples)
+})
+
+newTemples.addEventListener("click", () => {
+	templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] >= "2000"))
+})
+
+oldTemples.addEventListener("click", () => {
+	templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] <= "1900"))
+})
+
+largeTemples.addEventListener("click", () => {
+	templeCards(temples.filter(temple => temple.area >= 90000))
+})
+
+smallTemples.addEventListener("click", () => {
+	templeCards(temples.filter(temple => temple.area <= 10000))
 })
 
 

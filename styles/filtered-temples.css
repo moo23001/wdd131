@@ -80,10 +80,10 @@ img {
     gap: 10px;
     padding-bottom: 50px;
 }
-figcaption {
-    text-align: center;
-}
 
+.container h3, p {
+	
+}
 footer {
     display: block;
     margin: 0 auto;

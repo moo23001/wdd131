@@ -65,8 +65,8 @@ header {
 	display: block;
 }
 
-img {
-	width: 100%;
+body p {
+	font-size: .8rem;
 }
 #menu.show::before {
 	content: "x";
@@ -81,8 +81,12 @@ img {
     padding-bottom: 50px;
 }
 
-.container h3, p {
-	
+img {
+	width: 100%;
+}
+
+.card h3, p {
+	text-align: center;
 }
 footer {
     display: block;

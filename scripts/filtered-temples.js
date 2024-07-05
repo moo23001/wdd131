@@ -91,9 +91,12 @@ const temples = [
   ];
 
 templeCards(temples);
+const pageHeader = document.querySelector('#pageHeader');
 
 function templeCards(filteredTempleArray) {
 	document.querySelector(".container").innerHTML = "";
+
+
 	filteredTempleArray.map((temple) => {
 	//Create the temple card elements
 	const tCard = document.createElement("div");
@@ -149,24 +152,31 @@ const largeTemples = document.querySelector('#largeTemples');
 const smallTemples = document.querySelector('#smallTemples');
 
 
+
+
 allTemples.addEventListener("click", () => {
 	templeCards(temples)
+	pageHeader.textContent = "Home";
 })
 
 newTemples.addEventListener("click", () => {
 	templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] >= "2000"))
+	pageHeader.textContent = "New";
 })
 
 oldTemples.addEventListener("click", () => {
 	templeCards(temples.filter(temple => splitDate(temple.dedicated)[0] <= "1900"))
+	pageHeader.textContent = "Old";
 })
 
 largeTemples.addEventListener("click", () => {
 	templeCards(temples.filter(temple => temple.area >= 90000))
+	pageHeader.textContent = "Large";
 })
 
 smallTemples.addEventListener("click", () => {
 	templeCards(temples.filter(temple => temple.area <= 10000))
+	pageHeader.textContent = "Small";
 })
 
 

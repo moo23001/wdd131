@@ -85,6 +85,13 @@ img {
 	width: 100%;
 }
 
+.card {
+	padding: 5px;
+	border: 1px solid #124076;
+	box-shadow: .1rem .1rem .3rem .1rem #00000073;
+
+}
+
 .card h3, p {
 	text-align: center;
 }

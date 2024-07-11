@@ -29,6 +29,7 @@ header {
 
 .wf1 input[type="text"],
 .wf1 select,
+.wf1 textarea,
 .wf1 input[type="date"] {
     background-color: white;
     display: block;

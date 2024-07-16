@@ -10,12 +10,12 @@
 }
 
 *{
-    font-family: "DM Sans";
+    font-family: "Quicksand";
 }
 
 header {
     display: block;
-    align-items: center;
+    width: 96%;
     padding: 20px;
     background-color: var(--primaryColor);
     color: var(--typefaceColor1);
@@ -126,19 +126,16 @@ td {
 
 .wireframeMain {
     display: block;
-
-
+    text-align: center;
 }
 
 .wireframeMain img {
+    display: block;
     width: auto;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.wireframeMain figcaption {
-    caption-side: top;
+    
 }
 
 footer {

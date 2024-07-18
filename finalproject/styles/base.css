@@ -1,18 +1,32 @@
+:root {
+    --primaryColor: #8f3fa3;
+    --secondaryColor: #BA55D3;
+    --backgroundColorLight: #ff6347;
+    --backgroundcolorDark: #4B0082;
+    --typefaceColor1: #FFFFE0;
+    --typefaceColor2: white;
+    --fontFamily: "Quicksand";
+    --pFontWeight: 400;
+    --h2FontWeight: 500;
+    --h1FontWeight: 300;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    font-family: "DM Sans";
+    font-family: var(--fontFamily);
 }
 
 
 header {
-	background-color: #124076;
+	background-color: var(--primaryColor);
     align-items: center;
 	justify-content: center;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-    color: #EEEEEE;
+    color: var(--typefaceColor1);
 }
 .mainHeader {
     display: block;
@@ -56,12 +70,12 @@ header {
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
-    color: #EEEEEE;
+    color: var(--typefaceColor1);
 	
 }
 .navigation a:hover, navigation a:active {
-	color: #124076;
-	background-color: #FFC374;
+	color: var(--typefaceColor1);
+	background-color: var(--backgroundColorLight);
 
 	
 }
@@ -102,9 +116,9 @@ img {
 footer {
     display: block;
     margin: 0 auto;
-    background-color: #124076;
-    color: #EEEEEE;
+    background-color: var(--primaryColor);
+    color: var(--typefaceColor1);
     padding: 10px;
     text-align: center;
-    font-weight:500;
+    font-weight: var(--pFontWeight);
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <meta name="description" content="WDD 131 Final project">
+    <meta name="description" content="WDD 131 Final project home page">
     <meta name="author" content="Pedro Moo">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/largebase.css">
@@ -19,23 +19,35 @@
 <body>
     <header>
         <h1>Ana Thinking</h1>
-        <a id="menu" href="#"></a>
+        <a id="menu" href="index.html"></a>
         <nav>
             <ul class="navigation">
-                <li id="home"><a href="#">Home</a></li>
-                <li id="gallery"><a href="#">Gallery</a></li>
-                <li id="contactUs"><a href="#">Contact Us</a></li>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li id="gallery"><a href="gallery.html">Gallery</a></li>
+                <li id="contactUs"><a href="contactus.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="mainHeader"> 
-            <h2 id="pageHeader">Home</h2>
-        </div>
-        
-            <div class="container">
-
+    <main> 
+        <div class="homeContainer">
+            <img id="hero" src="images/hero1280x640.webp" alt="hero image" loading="lazy">
+            <div class="orderTodayBox">
+                <a href="#" id="orderToday">Place your order today</a>
             </div>
+
+            <section id="leftSection">
+                <h2>Make a Gift</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat veniam eum molestiae mollitia illum quia, 
+                    aliquam soluta ad cum reprehenderit iste. Vero, aliquid excepturi neque pariatur est accusantium consectetur similique.</p>
+                    <a href="#"  class="orderButton">Order Now</a>
+            </section>
+            <section id="rightSection">
+                <h2>Order this deal</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat veniam eum molestiae mollitia illum quia, 
+                    aliquam soluta ad cum reprehenderit iste. Vero, aliquid excepturi neque pariatur est accusantium consectetur similique.</p>
+                    <a href="#"  class="orderButton">Order Now</a>
+            </section>
+        </div>
             
     </main>
     <footer>

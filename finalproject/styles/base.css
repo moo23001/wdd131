@@ -144,22 +144,66 @@ body p {
     padding-bottom: 50px;
 }
 
-img {
-	width: 100%;
+.orderNow {
+    margin-top: 20px;
+    background-color: var(--primaryColor);
+    color: var(--typefaceColor1);
+    width: 96%;
+    padding: 10px;
+    border-radius: 10px;
 }
 
+img {
+	width: 100%;
+    height: auto;
+}
 
-
+/*------- Cards -------*/
 .card {
 	padding: 5px;
-	border: 1px solid #124076;
+	border: 1px solid var(--backgroundcolorDark);
 	box-shadow: .1rem .1rem .3rem .1rem #00000073;
 
 }
-
-.card h3, p {
-	text-align: center;
+.card a {
+    display: block;
+    width: 100%;
+    text-align: center;
 }
+
+/*------- Form -------*/
+.wf1 {
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--backgroundcolorDark);
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="email"],
+.wf1 textarea,
+.wf1 input[type="submit"] {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+}
+
+.wf1 input[type="submit"] {
+    border: none;
+    color: var(--typefaceColor1);
+    background-image: linear-gradient(var(--backgroundcolorDark),var(--secondaryColor));
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: var(--backgroundcolorDark);
+}
+
+/*------- Footer -------*/
 footer {
     display: block;
     margin: 0 auto;

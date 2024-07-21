@@ -84,7 +84,7 @@ function productCards(filteredProductArray) {
 	productCardImg.setAttribute("loading", "lazy")
 
     //Give attributes Order Now button
-    orderNowButton.setAttribute("src", "#");
+    orderNowButton.setAttribute("href", "contactus.html");
     orderNowButton.textContent = "Order Now"
     orderNowButton.classList.add("orderNow");
 

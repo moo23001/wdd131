@@ -216,6 +216,25 @@ img {
     box-shadow: var(--backgroundcolorDark);
 }
 
+/*------- Thank you ------*/
+.thankyou {
+    text-align: center;
+    align-content: center;
+    height: 250px;
+    background-color: var(--backgroundcolorDark);
+    color: var(--typefaceColor1);
+}
+
+.thankyou h1 {
+    font-weight: var(--h1FontWeight);
+}
+
+.thankyou h2 {
+    font-weight: var(--h2FontWeight);
+}
+
+
+
 /*------- Footer -------*/
 footer {
     display: block;

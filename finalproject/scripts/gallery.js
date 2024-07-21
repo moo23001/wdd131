@@ -1,63 +1,63 @@
 const products = [
     {
-        productName: "Product 1",
-        productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productName: "Kuromi notebook",
+        productPrice: 9.99,
+        productDescription: "Notebook with Kuromi design. Price is for ONE notebook.",
         productImg: "images/p1_480x480.webp",
         productPromo: true
     },
     {
-        productName: "Product 2",
-        productPrice: 19.99,
-        productDescription: "Product 2 short description",
+        productName: "Ana Thinking candy",
+        productPrice: 1.99,
+        productDescription: "Dry fruit or nuts. A delicious and healthy snack.",
         productImg: "images/p2_480x480.webp"
     },
     {
-        productName: "Product 3",
+        productName: "Assorted notebooks",
         productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productDescription: "Kuromi or Cinammonroll notebook. Big ring binders. Pack of 4.",
         productImg: "images/p3_480x480.webp"
     },
     {
-        productName: "Product 4",
-        productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productName: "Kuromi notebook",
+        productPrice: 8.99,
+        productDescription: "Single Kuromi notebook. Big ring binders.",
         productImg: "images/p4_480x480.webp"
     },
     {
-        productName: "Product 5",
-        productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productName: "Cinnamonroll notebook",
+        productPrice: 8.99,
+        productDescription: "Single Cinnamonroll notebook. Big ring binders.",
         productImg: "images/p5_480x480.webp"
     },
     {
-        productName: "Product 6",
-        productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productName: "Mistery Gift Box",
+        productPrice: 16.99,
+        productDescription: "Contains several products on the list and more. Great for gift giving.",
         productImg: "images/p6_1280x720.webp"
     },
     {
-        productName: "Product 7",
+        productName: "Hello Kitty Friends Box",
         productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productDescription: "Hello Kitty Friends Box. Use it to store all your favorite Hello kitty items",
         productImg: "images/p7_480x480.webp"
     },
     {
-        productName: "Product 8",
+        productName: "Hello Kitty Pack",
         productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productDescription: "Hello Kitty notebook, pen, magic box, eraser, and pin",
         productImg: "images/p8_480x480.webp"
     },
     {
-        productName: "Product 9",
+        productName: "Hello Kitty notebook",
         productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productDescription: "Single Cinnamonroll notebook.",
         productImg: "images/p9_480x480.webp"
     },
     {
-        productName: "Product 10",
-        productPrice: 19.99,
-        productDescription: "Product 1 short description",
+        productName: "Two Mystery Gift Boxes",
+        productPrice: 25.49,
+        productDescription: "Two Ana Thinking Mystery Gift Boxes. Use code: 50off.",
         productImg: "images/p10_1280x720.webp"
     },
 ];

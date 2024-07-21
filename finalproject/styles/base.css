@@ -203,6 +203,7 @@ img {
     display: block;
     width: 100%;
     max-width: 500px;
+    padding: .5rem;
 }
 
 .wf1 input[type="submit"] {

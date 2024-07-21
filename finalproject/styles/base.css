@@ -178,6 +178,18 @@ img {
 
 }
 
+.wf1 fieldset {
+    margin: 2rem 0;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: var(--backgroundcolorDark);
+    padding: .5rem;
+    font-weight: 700;
+}
+
 .wf1 label {
     display: block;
     padding-top: 1rem;
